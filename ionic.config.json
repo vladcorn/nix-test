@@ -1,0 +1,7 @@
+{
+  "name": "nix-test",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
