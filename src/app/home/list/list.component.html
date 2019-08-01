@@ -1,0 +1,17 @@
+
+<ion-list >
+     
+        <ng-container *ngFor="let item of listData">
+            <ion-item *ngIf='match(item)'>
+                <div class="read"></div>
+                <ion-label>
+                    <h2>{{item}}</h2>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur excepturi magnam nulla qui
+                        suscipit
+                        tenetur? A, aut, consectetur doloremque doloribus eveniet harum maiores quae quod rerum soluta ut
+                        voluptatibus. Accusantium!</h3>
+                </ion-label>
+            </ion-item>
+        </ng-container>
+
+</ion-list>
